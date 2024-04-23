@@ -49,7 +49,7 @@ const FullNameForm = () => {
             required
           />
         </div>
-        <button type="submit" disabled={isSubmitDisabled}>
+        <button type="submit" enabled={isSubmitDisabled}>
           Submit
         </button>
       </form>
